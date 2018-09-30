@@ -25,6 +25,10 @@
 		5C14177B215DC28900E5095D /* OrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C14177A215DC28900E5095D /* OrderListViewController.m */; };
 		5C14177E215DC29700E5095D /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C14177D215DC29700E5095D /* MineViewController.m */; };
 		5C141783215DD30F00E5095D /* Request_AFNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C141782215DD30F00E5095D /* Request_AFNetWorking.m */; };
+		5C14178D215F0F4000E5095D /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C14178A215F0F3F00E5095D /* 1.jpg */; };
+		5C14178E215F0F4000E5095D /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C14178B215F0F4000E5095D /* 2.jpg */; };
+		5C14178F215F0F4000E5095D /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C14178C215F0F4000E5095D /* 3.jpg */; };
+		5C28BDFB2160B49A005D9591 /* MyShenMuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C28BDFA2160B49A005D9591 /* MyShenMuViewController.m */; };
 		75CEDECBC68837067642F47F /* libPods-ShenMuLinTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 118392ECCBE1DD2FEC5DE84F /* libPods-ShenMuLinTests.a */; };
 		DB43EFA1A0478EB59BB774BB /* libPods-ShenMuLinUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3AE2CC5E49A0D8AF5244F7 /* libPods-ShenMuLinUITests.a */; };
 		DE4B8C47C5D321A6C58E1087 /* libPods-ShenMuLin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2565DD75920188CD766BD6C3 /* libPods-ShenMuLin.a */; };
@@ -90,6 +94,11 @@
 		5C14177F215DD03900E5095D /* ShenMuLin.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShenMuLin.pch; sourceTree = "<group>"; };
 		5C141781215DD30F00E5095D /* Request_AFNetWorking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Request_AFNetWorking.h; sourceTree = "<group>"; };
 		5C141782215DD30F00E5095D /* Request_AFNetWorking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Request_AFNetWorking.m; sourceTree = "<group>"; };
+		5C14178A215F0F3F00E5095D /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		5C14178B215F0F4000E5095D /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		5C14178C215F0F4000E5095D /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		5C28BDF92160B49A005D9591 /* MyShenMuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyShenMuViewController.h; sourceTree = "<group>"; };
+		5C28BDFA2160B49A005D9591 /* MyShenMuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyShenMuViewController.m; sourceTree = "<group>"; };
 		77BAE0D5D885DB56103BBA91 /* Pods-ShenMuLinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShenMuLinUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShenMuLinUITests/Pods-ShenMuLinUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7E3AE2CC5E49A0D8AF5244F7 /* libPods-ShenMuLinUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShenMuLinUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F8BCA6E67E507E886BA5CC /* Pods-ShenMuLin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShenMuLin.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShenMuLin/Pods-ShenMuLin.release.xcconfig"; sourceTree = "<group>"; };
@@ -176,6 +185,9 @@
 				5C14172A215DBA6700E5095D /* Info.plist */,
 				5C14172B215DBA6700E5095D /* main.m */,
 				5C14177F215DD03900E5095D /* ShenMuLin.pch */,
+				5C14178A215F0F3F00E5095D /* 1.jpg */,
+				5C14178B215F0F4000E5095D /* 2.jpg */,
+				5C14178C215F0F4000E5095D /* 3.jpg */,
 			);
 			path = ShenMuLin;
 			sourceTree = "<group>";
@@ -268,6 +280,8 @@
 			children = (
 				5C141770215DC18A00E5095D /* HomeViewController.h */,
 				5C141771215DC18A00E5095D /* HomeViewController.m */,
+				5C28BDF92160B49A005D9591 /* MyShenMuViewController.h */,
+				5C28BDFA2160B49A005D9591 /* MyShenMuViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -508,6 +522,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C141729215DBA6700E5095D /* LaunchScreen.storyboard in Resources */,
+				5C14178D215F0F4000E5095D /* 1.jpg in Resources */,
+				5C14178E215F0F4000E5095D /* 2.jpg in Resources */,
+				5C14178F215F0F4000E5095D /* 3.jpg in Resources */,
 				5C141726215DBA6700E5095D /* Assets.xcassets in Resources */,
 				5C141724215DBA6200E5095D /* Main.storyboard in Resources */,
 			);
@@ -613,6 +630,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C28BDFB2160B49A005D9591 /* MyShenMuViewController.m in Sources */,
 				5C141721215DBA6200E5095D /* ViewController.m in Sources */,
 				5C14172C215DBA6700E5095D /* main.m in Sources */,
 				5C141758215DBEC600E5095D /* BaseNavigationController.m in Sources */,
