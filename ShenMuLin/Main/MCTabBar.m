@@ -17,9 +17,10 @@
 }
 
 - (void)initView{
+    
     _centerBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     //  设定button大小为适应图片
-    UIImage *normalImage = [UIImage imageNamed:@"tabbar_add"];
+    UIImage *normalImage = [UIImage imageNamed:@"树友圈选中"];
     _centerBtn.frame = CGRectMake(0, 0, normalImage.size.width, normalImage.size.height);
     [_centerBtn setImage:normalImage forState:UIControlStateNormal];
     //去除选择时高亮

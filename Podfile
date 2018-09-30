@@ -12,6 +12,8 @@ pod "MJExtension"
 pod "SVProgressHUD"
 pod "IQKeyboardManager"
 pod 'Masonry'
+#pod 'CYLTabBarController'
+#pod 'WechatOpenSDK'
 
   # Pods for ShenMuLin
 

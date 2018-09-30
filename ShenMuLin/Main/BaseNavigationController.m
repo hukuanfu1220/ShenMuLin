@@ -29,6 +29,8 @@
      //改变navBar的背景颜色
      [self.navigationBar setBarTintColor:[UIColor blueColor]];
      */
+    self.navigationBar.tintColor = [UIColor whiteColor];
+    [self.navigationBar setBarTintColor:[UIColor colorWithRed:148.0/255.0 green:113.0/255.0 blue:49.0/255.0 alpha:1.0]];
 }
 
 //重写这个方法，在跳转后自动隐藏tabbar
